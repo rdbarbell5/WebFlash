@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background:#8CB79B;
+    color:white;
+}
+
+/* NAV */
+.nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+    background:#235347;
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:white;
+    margin-bottom:20px;
+}
+
+/* BOTON */
+.btn{
+    background:#3b82f6;
+    padding:12px 25px;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#051F20;
+}
+
+/* SECCIONES */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#235347;
+    padding:25px;
+    border-radius:12px;
+    width:250px;
+    transition:0.3s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card span{
+    display:block;
+    margin-top:10px;
+    color:#DBF0DD;
+    font-weight:bold;
+}
+
+/* PROCESO */
+.pasos{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.paso{
+    background:#235347;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+}
+
+/* BENEFICIOS */
+.benefit-list p{
+    margin:10px 0;
+    color: #FFF4E2;
+}
+
+/* CTA */
+.cta-final{
+    background:#173831;
+    
+}
+
+hr{
+margin: 25px;
+}
+
+footer{
+    padding: 20px ;
+    margin-top: 20px;
+
+}
